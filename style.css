@@ -22,8 +22,8 @@ body{
     background-color: var(--Darkcyan);
 }
 .container{
-   width: 400px;
-   height: 464px;
+   width: 330px;
+   height: 390px;
    border-radius: 1rem;
    overflow: hidden;
    position: relative;
@@ -32,14 +32,14 @@ body{
 }
 .container__bubbles{
     width: 100%;
-    height: 170px;
+    height: 120px;
     background-image: url(./images/bg-pattern-card.svg);
     
 }
 .container__photo{/*centrar foto sobre el fondo*/
     position:absolute;
-    top: 120px;
-    left: 36.9%;
+    top: 72px;
+    left: 34%;
     border: 5px solid white;
     border-radius: 50%;
     overflow: hidden;
@@ -47,7 +47,7 @@ body{
 }
 .container__personal{
     width: 100%;
-    height:180px;
+    height:160px;
     background-color: white;
     text-align: center;
     padding-top: 80px;
@@ -65,15 +65,15 @@ body{
     font-size: 22px;
 }
 .city{
-    padding-top: 16px;   
+    padding-top: 10px;   
 }
 .container__stast{
     width: 100%;
-    height:114px ;
+    height:110px ;
     background-color: white;
     display: flex;
     justify-content: space-around;
-    padding: 30px 30px;
+    padding: 20px 20px;
 }
 .container__stast-statistics{
     text-align: center;
